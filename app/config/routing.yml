@@ -1,0 +1,5 @@
+dp_strategy:
+    resource: "@DPStrategyBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

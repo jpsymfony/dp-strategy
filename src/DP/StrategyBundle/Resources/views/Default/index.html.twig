@@ -1,0 +1,7 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    {% for canard in canards %}
+        <p>{{canard.afficher}}: {{canard.effectuerCancan}} et {{canard.effectuerVol}} et {{canard.effectuerNage}}</p>
+    {% endfor %}
+{% endblock %}
